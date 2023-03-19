@@ -1,1 +1,1 @@
-<img url="https://cdn.discordapp.com/attachments/343139540262977538/1086818443094929488/READMEimg.png">
+<img src="https://cdn.discordapp.com/attachments/343139540262977538/1086818443094929488/READMEimg.png">
