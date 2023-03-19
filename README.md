@@ -1,5 +1,5 @@
 # Clone do LinkTree
-
+<a href="https://danieltree.netlify.app/">Clone</a>
 <hr>
 
 ## Linguagens:
