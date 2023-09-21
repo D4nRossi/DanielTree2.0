@@ -6,34 +6,6 @@ imagePath,
 showcaseContainer
 } from './data.js'
 
-export function dev(){
-    window.oncontextmenu=function(){
-        alert('Botão direito desativado - código fonte está no GitHub');
-        return false;
-    }
-}
-
-export function block(){
-    document.onkeydown = function (e){
-            if(event.keyCode == 123){
-                return false;
-                alert('F12 desativado - código fonte no GitHub')
-            }
-            if(e.ctrlKey && e.shiftKey && e.keyCode == "I".charCodeAt(0)){
-                return false;
-            }
-            if(e.ctrlKey && e.shiftKey && e.keyCode == "C".charCodeAt(0)){
-                return false;
-            }
-            if(e.ctrlKey && e.shiftKey && e.keyCode == "J".charCodeAt(0)){
-                return false;
-            }
-            if(e.ctrlKey && e.keyCode == "U".charCodeAt(0)){
-                return false;
-            }
-    }
-}
-
 export function createSocialLinks(){
     const social = document.getElementById('socialRow');
     const title = document.querySelector('.whereTittle');
@@ -97,15 +69,15 @@ export function accountImage(){
 
 export function showcaseGrid(){
 
-    var title1 = "Últimos Projetos";
-    var title2 = "Discord";
-    var title3 = "Steam";
-    var title4 = "Playlist";
+    const title1 = "Últimos Projetos";
+    const title2 = "Discord";
+    const title3 = "Steam";
+    const title4 = "Spotify";
 
-    var link1 = 'https://github.com/D4nRossi'
-    var link2 = 'https://discord.gg/BTtGEmysF3'
-    var link3 = 'https://steamcommunity.com/profiles/76561198326638076/'
-    var link4 = 'https://open.spotify.com/playlist/0Hjv3kha6YJGAMCeTawUiv?si=1fbaaaf23d704335'
+    const link1 = 'https://github.com/D4nRossi'
+    const link2 = 'https://discord.gg/BTtGEmysF3'
+    const link3 = 'https://steamcommunity.com/profiles/76561198326638076/'
+    const link4 = 'https://open.spotify.com/user/12175772039?si=917bc22423ec4047'
 
     const gridTitle = document.querySelector('.tittle-showcase');
     const gridName = 'Shortcuts';
