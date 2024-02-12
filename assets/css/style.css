@@ -8,7 +8,7 @@
 }
 
 html{
-    height: 100%;
+    height: auto;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
@@ -35,7 +35,9 @@ body{
 .mainContainer{
     display: inline-block;
     max-width: 700px;
+    height: 100%;
     text-align: center;
+    overflow-y: scroll;
 }
 
 #bg {
@@ -165,6 +167,7 @@ body{
 }
 
 .footer-info{
+    margin-top: 15px;
     height: 100%;
     display: flex;
     align-items: center;
